@@ -1,0 +1,19 @@
+<cloudhub2Deployment>
+    <uri>https://anypoint.mulesoft.com</uri>
+    <provider>MC</provider>
+    <environment>${environment}</environment>
+    <target>${target}</target>
+    <muleVersion>4.7.0</muleVersion>
+    <server>Repository</server>
+    <applicationName>wave-integration-cicd</applicationName>
+    <replicas>1</replicas>
+    <vCores>0.1</vCores>
+    <properties>
+        <env>${en}</env>
+    </properties>
+    <secureProperties>
+        <key>${secure_key}</key>
+    </secureProperties>
+    <skipDeploymentVerification>true</skipDeploymentVerification>
+    <deploymentSettings/>
+</cloudhub2Deployment>
